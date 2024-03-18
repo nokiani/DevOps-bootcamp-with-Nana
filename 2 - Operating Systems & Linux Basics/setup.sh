@@ -4,21 +4,24 @@ echo "Setup and configure server"
 
 file_name=config.yaml
 
-if [ -d "config" ]
+config_dir=$1
+
+if [ -d "$config_dir" ]
 then
   echo "reading config directory contents"
-  config_files=$(ls config)
+  config_files=$(ls "$config_dir")
 else
   echo "config dir not found. Creating one"
-  mkdir config
+  mkdir "$config_dir"
+  touch "$config_dir/config.sh"
 fi
 
-user_group=admin
+user_group=$2
 
-if [ $user_group == "alex" ]
+if [ "$user_group" == "alex" ]
 then
   echo "configure the server"
-elif [ $user_group == "admin" ]
+elif [ "$user_group" == "admin" ]
 then
   echo "administer the server"
 else
