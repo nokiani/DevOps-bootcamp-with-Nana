@@ -1,7 +1,10 @@
 #!/bin/bash
 
-echo "Reading user input"
+# Params as single string
+echo "all params: $*"
 
-read -r -p "Please enter your password: " user_pwd
+# Total number of arguments provided
+echo "nubmer of params: $#"
 
-echo "thanks for your password $user_pwd"
+echo "user $1"
+echo "group $2"
