@@ -1,6 +1,6 @@
 ### This project is for the [DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) for "Operating Systems & Linux Basics" Module ###
 <br />
-[![Linux Icon for Linux Module](/linux.png)]
+[![](linux.png)]
 
 **Commands used in the videos:**
 
