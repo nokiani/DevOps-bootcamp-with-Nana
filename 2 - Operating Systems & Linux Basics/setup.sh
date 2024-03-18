@@ -13,6 +13,19 @@ else
   mkdir config
 fi
 
+user_group=admin
+
+if [ $user_group == "alex" ]
+then
+  echo "configure the server"
+elif [ $user_group == "admin" ]
+then
+  echo "administer the server"
+else
+  echo "No permission to configure sever. Wrong user group"
+fi
+
+
 echo "using file $file_name to configure something"
 
 echo "here are all configuration files: $config_files"
