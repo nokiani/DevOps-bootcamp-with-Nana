@@ -47,8 +47,18 @@ function create_file() {
   fi
 }
 
-create_file test.txt
+# create_file test.txt
 
-create_file myfile.yaml
+# create_file myfile.yaml
 
-create_file myscript.sh true
+# create_file myscript.sh true
+
+function sum() {
+  total=$(($1 + $2))
+  return $total
+}
+
+sum 2 10
+result=$?
+
+echo "sum of 2 and 10 is $result"
