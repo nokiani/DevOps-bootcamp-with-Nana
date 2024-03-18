@@ -1,6 +1,6 @@
 ### This project is for the [DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp) for "Operating Systems & Linux Basics" Module ###
 <br />
-![Linux Icon for Linux Module](https://github.com/nokiani/DevOps-bootcamp-with-Nana/tree/main/2%20-%20Operating%20Systems%20%26%20Linux%20Basics/linux.png "OS & Linux Basics Module")
+![Linux Icon for Linux Module](https://github.com/nokiani/DevOps-bootcamp-with-Nana/2%20-%20Operating%20Systems%20%26%20Linux%20Basics/linux.png "OS & Linux Basics Module")
 
 **Commands used in the videos:**
 
