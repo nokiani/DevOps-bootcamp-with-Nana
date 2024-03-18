@@ -3,7 +3,15 @@
 echo "Setup and configure server"
 
 file_name=config.yaml
-config_files=$(ls config)
+
+if [ -d "config" ]
+then
+  echo "reading config directory contents"
+  config_files=$(ls config)
+else
+  echo "config dir not found. Creating one"
+  mkdir config
+fi
 
 echo "using file $file_name to configure something"
 
