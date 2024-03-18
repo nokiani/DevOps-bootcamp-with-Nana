@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Params as single string
-echo "all params: $*"
+# echo "all params: $*"
 
 # Total number of arguments provided
-echo "nubmer of params: $#"
+# echo "nubmer of params: $#"
 
 for param in $*
   do
@@ -34,4 +34,14 @@ function score_sum {
 }
 
 
-score_sum
+function create_file() {
+  file_name=$1
+  touch "$file_name"
+  echo "file $file_name created"
+}
+
+create_file test.txt
+
+create_file myfile.yaml
+
+create_file myscript.sh
