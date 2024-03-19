@@ -2,3 +2,5 @@
 
 Added bugfix/user-auth-error
 Some changes
+
+My changes
