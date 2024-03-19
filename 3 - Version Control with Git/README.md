@@ -1,3 +1,6 @@
 # DevOps-bootcamp-with-Nana
 
-Added feature/database-connection
+Added bugfix/user-auth-error
+Some changes in GUI
+
+My changes
